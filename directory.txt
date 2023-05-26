@@ -1,0 +1,190 @@
+recast-navigation
+©¦  CMakeLists.txt
+©¦  CODE_OF_CONDUCT.md
+©¦  CONTRIBUTING.md
+©¦  directory.txt
+©¦  Doxyfile
+©¦  License.txt
+©¦  README.md
+©¦  recastnavigation-config.cmake.in
+©¦  recastnavigation.pc.in
+©¦  Roadmap.md
+©¦  version.h.in
+©¦                      
+©À©¤DebugUtils
+©¦  ©¦  CMakeLists.txt
+©¦  ©¦  
+©¦  ©À©¤Include
+©¦  ©¦      DebugDraw.h
+©¦  ©¦      DetourDebugDraw.h
+©¦  ©¦      RecastDebugDraw.h
+©¦  ©¦      RecastDump.h
+©¦  ©¦      
+©¦  ©¸©¤Source
+©¦          DebugDraw.cpp
+©¦          DetourDebugDraw.cpp
+©¦          RecastDebugDraw.cpp
+©¦          RecastDump.cpp
+©¦          
+©À©¤Detour
+©¦  ©¦  CMakeLists.txt
+©¦  ©¦  
+©¦  ©À©¤Include
+©¦  ©¦      DetourAlloc.h
+©¦  ©¦      DetourAssert.h
+©¦  ©¦      DetourCommon.h
+©¦  ©¦      DetourMath.h
+©¦  ©¦      DetourNavMesh.h
+©¦  ©¦      DetourNavMeshBuilder.h
+©¦  ©¦      DetourNavMeshQuery.h
+©¦  ©¦      DetourNode.h
+©¦  ©¦      DetourStatus.h
+©¦  ©¦      
+©¦  ©¸©¤Source
+©¦          DetourAlloc.cpp
+©¦          DetourAssert.cpp
+©¦          DetourCommon.cpp
+©¦          DetourNavMesh.cpp
+©¦          DetourNavMeshBuilder.cpp
+©¦          DetourNavMeshQuery.cpp
+©¦          DetourNode.cpp
+©¦          
+©À©¤DetourCrowd
+©¦  ©¦  CMakeLists.txt
+©¦  ©¦  
+©¦  ©À©¤Include
+©¦  ©¦      DetourCrowd.h
+©¦  ©¦      DetourLocalBoundary.h
+©¦  ©¦      DetourObstacleAvoidance.h
+©¦  ©¦      DetourPathCorridor.h
+©¦  ©¦      DetourPathQueue.h
+©¦  ©¦      DetourProximityGrid.h
+©¦  ©¦      
+©¦  ©¸©¤Source
+©¦          DetourCrowd.cpp
+©¦          DetourLocalBoundary.cpp
+©¦          DetourObstacleAvoidance.cpp
+©¦          DetourPathCorridor.cpp
+©¦          DetourPathQueue.cpp
+©¦          DetourProximityGrid.cpp
+©¦          
+©À©¤DetourTileCache
+©¦  ©¦  CMakeLists.txt
+©¦  ©¦  
+©¦  ©À©¤Include
+©¦  ©¦      DetourTileCache.h
+©¦  ©¦      DetourTileCacheBuilder.h
+©¦  ©¦      
+©¦  ©¸©¤Source
+©¦          DetourTileCache.cpp
+©¦          DetourTileCacheBuilder.cpp
+©¦          
+©À©¤Recast
+©¦  ©¦  CMakeLists.txt
+©¦  ©¦  
+©¦  ©À©¤Include
+©¦  ©¦      Recast.h
+©¦  ©¦      RecastAlloc.h
+©¦  ©¦      RecastAssert.h
+©¦  ©¦      
+©¦  ©¸©¤Source
+©¦          Recast.cpp
+©¦          RecastAlloc.cpp
+©¦          RecastArea.cpp
+©¦          RecastAssert.cpp
+©¦          RecastContour.cpp
+©¦          RecastFilter.cpp
+©¦          RecastLayers.cpp
+©¦          RecastMesh.cpp
+©¦          RecastMeshDetail.cpp
+©¦          RecastRasterization.cpp
+©¦          RecastRegion.cpp
+©¦          
+©À©¤RecastDemo
+©¦  ©¦  CMakeLists.txt
+©¦  ©¦  premake5.lua
+©¦  ©¦  
+©¦  ©À©¤Bin
+©¦  ©¦  ©¦  .gitignore
+©¦  ©¦  ©¦  DroidSans.ttf
+©¦  ©¦  ©¦  
+©¦  ©¦  ©À©¤Meshes
+©¦  ©¦  ©¦      dungeon.obj
+©¦  ©¦  ©¦      nav_test.obj
+©¦  ©¦  ©¦      undulating.obj
+©¦  ©¦  ©¦      
+©¦  ©¦  ©¸©¤TestCases
+©¦  ©¦          movement_test.txt
+©¦  ©¦          nav_mesh_test.txt
+©¦  ©¦          raycast_test.txt
+©¦  ©¦          
+©¦  ©À©¤cmake
+©¦  ©¦      FindSDL2.cmake
+©¦  ©¦      
+©¦  ©À©¤Contrib
+©¦  ©¦  ©¦  readme-sdl.txt
+©¦  ©¦  ©¦  stb_truetype.h
+©¦  ©¦  ©¦  
+©¦  ©¦  ©À©¤fastlz
+©¦  ©¦  ©¦      fastlz.c
+©¦  ©¦  ©¦      fastlz.h
+©¦  ©¦  ©¦      README.TXT
+©¦  ©¦                  
+©¦  ©À©¤Include
+©¦  ©¦      ChunkyTriMesh.h
+©¦  ©¦      ConvexVolumeTool.h
+©¦  ©¦      CrowdTool.h
+©¦  ©¦      Filelist.h
+©¦  ©¦      imgui.h
+©¦  ©¦      imguiRenderGL.h
+©¦  ©¦      InputGeom.h
+©¦  ©¦      MeshLoaderObj.h
+©¦  ©¦      NavMeshPruneTool.h
+©¦  ©¦      NavMeshTesterTool.h
+©¦  ©¦      OffMeshConnectionTool.h
+©¦  ©¦      PerfTimer.h
+©¦  ©¦      Sample.h
+©¦  ©¦      SampleInterfaces.h
+©¦  ©¦      Sample_Debug.h
+©¦  ©¦      Sample_SoloMesh.h
+©¦  ©¦      Sample_TempObstacles.h
+©¦  ©¦      Sample_TileMesh.h
+©¦  ©¦      TestCase.h
+©¦  ©¦      ValueHistory.h
+©¦  ©¦      
+©¦  ©¸©¤Source
+©¦          ChunkyTriMesh.cpp
+©¦          ConvexVolumeTool.cpp
+©¦          CrowdTool.cpp
+©¦          Filelist.cpp
+©¦          imgui.cpp
+©¦          imguiRenderGL.cpp
+©¦          InputGeom.cpp
+©¦          main.cpp
+©¦          MeshLoaderObj.cpp
+©¦          NavMeshPruneTool.cpp
+©¦          NavMeshTesterTool.cpp
+©¦          OffMeshConnectionTool.cpp
+©¦          PerfTimer.cpp
+©¦          Sample.cpp
+©¦          SampleInterfaces.cpp
+©¦          Sample_Debug.cpp
+©¦          Sample_SoloMesh.cpp
+©¦          Sample_TempObstacles.cpp
+©¦          Sample_TileMesh.cpp
+©¦          TestCase.cpp
+©¦          ValueHistory.cpp
+©¦          
+©¸©¤Tests
+    ©¦  CMakeLists.txt
+    ©¦  
+    ©À©¤Contrib
+    ©¦  ©¸©¤catch2
+    ©¦          catch_all.hpp
+    ©¦          catch_amalgamated.cpp
+    ©¦          
+    ©À©¤Detour
+    ©¦      Tests_Detour.cpp
+    ©¦      
+    ©¸©¤Recast
+            Tests_Recast.cpp
